@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+
+  @font-face {
+    font-family: "miama";
+    src: url(/Miama.ttf);
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+
+  /* Shared style */
+
+  .description {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .red-btn {
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: #E6533C;
+    color: #ffffff;
+    border-radius: 42px;
+    padding: 16px 46px;
+    border-style: none;
+  }
+
+  .black-btn {
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 42px;
+    padding: 16px 46px;
+    border-style: none;
+    border: 1px solid #ffffff;
+  }
+
+
+  .navbar, .banner, .habits, .run-extra-mile {
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+
+
+  /* Nav style */
+
+  header {
+    background-color: black;
+    background-image: linear-gradient(to top, #111111, #444444 #777777);
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .title-name {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #E6533C;
+  }
+
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    gap: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+  }
+
+  #red-home {
+    background-color: #E6533C;
+    padding: 8px 20px;
+    border-radius: 46px;
+  }
+
+  .navbar ul li {
+    list-style-type: none;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+  }
+
+  /* Banner style */
+
+  .banner {
+    display: flex;
+  }
+
+  .banner-title h1 {
+    color: #ffffff;
+    font-size: 4.8rem;
+  }
+
+  #banner-shape {
+    font-family: miama;
+    font-size: 4.8rem;
+    font-weight: 400;
+  }
+
+  .banner-title p {
+    margin: 28px 0;
+  }
+
+  .banner-title button {
+    margin-right: 12px;
+  }
+
+  .floating-card-1 h2 {
+    font-size: 2.5rem;
+    color: white;
+  }
+
+  .floating-card-1 {
+    border-radius: 12px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+ 
+  /* Habit section style */
+.habits-title-container {
+    text-align: center;
+}
+
+.habits-title {
+    font-size: 3rem;
+    margin-bottom: 14px;
+    color: rgba(217, 217, 217, 1);
+}
+
+.habits-title-container p {
+    margin-bottom: 48px;
+}
+
+.habits-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.habits-item {
+    text-align: center;
+}
+.habits-item img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.habits-item h4 {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+    color: rgba(217, 217, 217, 1);
+}
+
+
+/* Run extra mile section style */
+.run-extra-mile {
+    display: flex;
+    gap: 165px;
+    justify-content: space-between;
+    background-color: #222222;
+    border-radius: 18px;
+    padding: 30px 30px 30px 54px;
+    margin-top: 141px;
+}
+
+.extra-mile-title {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.extra-mile-img img{
+    width: 100%;
+    border-radius: 18px;
+}
+

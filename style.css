@@ -47,7 +47,9 @@
   }
 
 
-  .navbar, .banner, .habits, .run-extra-mile, .training, .bmi-chart-calculator-container {
+  .navbar, .banner, .habits, .run-extra-mile, 
+  .training, .bmi-chart-calculator-container, 
+  .our-team, .footer-container {
     max-width: 1060px;
     margin: 0 auto;
   }
@@ -304,3 +306,123 @@
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
 }
+
+
+/* Our team section style */
+.our-team {
+    margin-top: 88px;
+    bottom: 88px;
+}
+.our-team-header {
+    text-align: center;
+}
+
+.our-team-header-title {
+    font-size: 3rem;
+    color: our-team-header-title;
+    margin-bottom: 14px;
+}
+
+.our-team-header p {
+    margin-bottom: 58px;
+}
+
+.our-team-img-container {
+    background-color: gray;
+    border-radius: 18px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #111;
+    padding: 25px; 
+}
+
+.trainer-card img {
+    width: 100%;
+    height: 85%;
+    border-radius: 18px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.our-team-img-container > div {
+    position: relative;
+}
+
+.our-team-img-container .trainer-intro {
+    position: absolute;
+    display: block;
+    left: 20px;
+    bottom: 35px;
+}
+
+.trainer-name {
+    font-size: 1.25rem;
+    /* margin-bottom: -12px; */
+}
+
+
+/* Footer style */
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 88px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 120px;
+    padding: 66px 0 80px 0;
+}
+
+.get-started-container {
+    display: flex;
+    gap: 80px;
+    width: 100%;
+}
+
+.get-started {
+    width: 100%;
+}
+
+.fitness-title {
+    font-size: 4.4rem;
+    color: #E6533C;
+    margin-bottom: 20px;
+}
+
+.fitness p {
+    line-height: 1.5rem;
+}
+
+.get-started-title {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+
+.get-started p {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+hr {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.1);
+    max-width: 1080px;
+    height: 2px;
+    border: none;
+}
+
+.all-right-reserved {
+    /* margin-top: 36px; */
+    padding: 36px;
+    text-align: center;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
